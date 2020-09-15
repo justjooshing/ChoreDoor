@@ -63,14 +63,15 @@ section {
   padding-bottom: 10px;
 }
 
-#scoreBoard > div {
+.scoreWrapper {
   padding: 10px;
   margin: 0px 3em;
   background-color: #eb6536;
   /*border: solid 1px #eb6536 */
 }
 
-#scoreBoard > div > div {
+#playerScoreBoard,
+#botScoreBoard {
   color: #ffffff;
   background-color: #010165;
 }
