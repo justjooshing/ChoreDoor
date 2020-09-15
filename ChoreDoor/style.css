@@ -1,0 +1,88 @@
+body {
+  background-color: #010165;
+  margin: 0px;
+  font-family: "Work Sans";
+}
+
+header {
+  background-color: #00ffff;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+  align-items: center;
+}
+
+#title-row {
+  margin: 42px 0px;
+  text-align: center;
+}
+
+#instructions-title {
+  display: inline;
+  font-size: 18px;
+  color: #00ffff;
+}
+
+#grid-container {
+  padding-top: 1em;
+  margin: 0 20%;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 1em;
+  color: #00ffff;
+  align-items: center;
+}
+
+.instruction-number {
+  text-align: right;
+  font-size: 36px;
+}
+
+.instruction-text {
+  text-align: left;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+#door-row {
+  text-align: center;
+}
+
+.door-frame {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#scoreBoard {
+  display: flex;
+  justify-content: center;
+  color: #010165;
+  padding-bottom: 10px;
+}
+
+#scoreBoard > div {
+  padding: 10px;
+  margin: 0px 3em;
+  background-color: #eb6536;
+  /*border: solid 1px #eb6536 */
+}
+
+#scoreBoard > div > div {
+  color: #ffffff;
+  background-color: #010165;
+}
+
+.start-row {
+  background-color: #eb6536;
+  padding: 5px 8px;
+  text-align: center;
+  width: 100px;
+  margin: auto;
+  font-size: 18px;
+  color: #010165;
+  cursor: pointer;
+  margin-bottom: 21px;
+}
